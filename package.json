@@ -1,0 +1,22 @@
+{
+  "name": "bingusdb",
+  "version": "0.0.1",
+  "description": "Bingus as a Database",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "repository": "https://github.com/dothq/bingus-db",
+  "author": "EnderDev <42723993+EnderDev@users.noreply.github.com>",
+  "license": "MPL-2.0",
+  "private": false,
+  "scripts": {
+    "prepublish": "tsc"
+  },
+  "dependencies": {
+    "@dothq/id": "^1.0.1",
+    "better-sqlite3": "^7.4.3"
+  },
+  "devDependencies": {
+    "@types/better-sqlite3": "^7.4.0",
+    "@types/node": "^16.9.1"
+  }
+}
